@@ -1,0 +1,88 @@
+@media (max-width: 1353px) {
+    .service .service-col2 {
+        max-height: none;
+        margin: 15px 0;
+    }
+    .service {
+        padding: 0;
+    }
+}
+
+/* Laptop Version */
+
+@media (max-width: 900px){
+    .service-row {
+        display: block;
+    }
+}
+
+/* Tablet version */
+@media (max-width: 768px) {
+    .testimonial-row {
+        display: block;
+    }
+    .testimonial-mini-col2 {
+        margin-bottom: 17px;
+    }
+    .blog-row {
+        display: block;
+    }
+    .blog-col-2 {
+        margin: 15px 0;
+    }
+}
+
+/* mobile version */
+@media (max-width: 620px) {
+    .menu-bar {
+        display: none;
+    }
+    .featured-row-1 {
+        display:block;
+    }
+
+}
+@media (max-width: 600px) {
+    .edu-row {
+        display: block;
+    }
+    .education .edu-col2 {
+        margin-top: 15px;
+    }
+    .respon-sp{
+        display: none;
+    }
+}
+@media (min-width: 600px) {
+    .responsive-bar {
+        display: none;
+        color: white;
+
+    }
+   
+}
+@media (max-width: 700px) {
+  
+    .about-row {
+        display: block;
+    }
+    .btn1, .btn2 {
+        width: 100%;
+        display: block;
+        margin-bottom: 10px;
+    }
+    .about-col2 {
+        padding-top: 20px;
+        padding-left: 0px;
+    }
+    .contact-row {
+        display: block;
+    }
+}
+@media (max-width: 900px) {
+    .btn1, .btn2 {
+        width: 100%;
+        display: block;
+        margin-bottom: 10px;
+    } 
+}

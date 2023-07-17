@@ -6,7 +6,16 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: #222222;
 
+}
+.container {
+
+    width: 90%;
+    margin: 0 auto;
+   
+    /* padding: 100px 80px; */
+    background-color: #222222;
 }
 
 
@@ -69,9 +78,10 @@ body {
 /* portfolio section start */
 
 .featured {
-    background-color: #233a40;
+
     text-align: center;
-    padding: 60px 80px;
+    padding: 80px 0;
+   
 }
 
 .featured-row-1 {
@@ -135,6 +145,7 @@ body {
     font-size: 17px;
     font-weight: 100;
 }
+
 .featured img {
     width: 100%;
     height: auto;
@@ -142,8 +153,8 @@ body {
 
 /* Eduction section start */
 .education {
-    background-color: #233a40;
-    padding: 60px 80px;
+    background-color: #222222;
+    padding: 80px 0;
 }
 
 .edu-row {
@@ -224,10 +235,17 @@ body {
     padding-top: 27px;
 }
 
+.responsive-bar {
+    color: white;
+    font-size: 28px;
+    font-weight: 200;
+    padding-bottom: 20px;
+}
+
 /* about section start */
 .about {
-    background-color: #343a40;
-    padding: 60px 80px;
+    background-color: #222222;
+    padding: 80px 0;
 }
 
 .about-row {
@@ -247,22 +265,50 @@ body {
 
 .about-col2 {
     flex-basis: 49%;
+    padding-left: 60px;
+}
+
+.about-col2 h3 {
+    color: white;
+    font-size: 40px;
+    font-weight: 200;
+    padding-bottom: 20px;
+}
+
+.about-col2 span {
+    font-weight: 900;
+}
+
+.about-col2 p {
+    color: #888888;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.7;
+}
+
+.about-col2 small {
+    color: #888888;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.7;
+    padding-top: 17px;
 }
 
 .btn1 {
     background: #bac964;
-    color: white;
-    padding: 10px 20px;
+    color: rgb(0, 0, 0);
+    padding: 15px 40px;
     border-radius: 20px;
     text-decoration: none;
     margin-top: 30px;
     display: inline-block;
+    margin-right: 20px;
 }
 
 .btn2 {
     background: #333;
     color: white;
-    padding: 10px 20px;
+    padding: 15px 40px;
     border-radius: 20px;
     text-decoration: none;
 }
@@ -286,16 +332,20 @@ body {
 /* testimonial section start */
 
 .testimonial {
-    background-color: #343a40;
-    padding: 60px 80px;
+    background-color: #222222;
+    padding: 80px 0;
 }
 
 .testimonial h3 {
     text-align: center;
     color: white;
     font-size: 30px;
-    font-weight: 300;
-    padding: 20px 0;
+    font-weight: 200;
+    padding: 30px 0;
+}
+
+.testimonial h3 span {
+    font-weight: 600;
 }
 
 .testimonial-row {
@@ -316,11 +366,12 @@ body {
 .testimonial-mini-col2 {
     background-color: #333;
     border-radius: 15px;
-    padding: 30px;
-    color: white;
+    padding: 60px;
+    color: #bbbbbb;
     position: relative;
 
 }
+
 
 .testimonial-mini-col4 {
     background-color: #333;
@@ -347,9 +398,31 @@ body {
 .testimonial-mini-col4 {
     background-color: #333;
     border-radius: 15px;
-    padding: 30px;
-    color: white;
+    padding: 60px;
     position: relative;
+}
+
+.testimonial-mini-col2 blockquote {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 33px;
+    word-spacing: 1px;
+    padding-bottom: 19px;
+
+}
+.testimonial-mini-col4 blockquote {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 33px;
+    word-spacing: 1px;
+    padding-bottom: 19px;
+}
+.testimonial-mini-col3, .testimonial-mini-col4 {
+    color: #bbbbbb;
+    
+}
+.testimonial span {
+    color: #bac964
 }
 
 .triangle {
@@ -365,14 +438,151 @@ body {
 
 /* testimonial end */
 
+
+/* service section start */
+
+.service  {
+    padding: 80px 0;
+   
+}
+.service-row {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.service-col1, .service-col2, .service-col3 {
+    flex-basis: 32%;
+    background-color: #333333;
+    padding: 41px 34px;
+  
+}
+.service .service-col2 {
+    max-height: 471px;
+}
+.service h2 {
+    color: white;
+    font-weight: 200;
+    font-size: 40px;
+    padding: 40px 0;
+    text-align: center;
+}
+.service h2 span {
+    font-weight: 500;
+}
+
+.service .icon i{
+    font-size: 60px;
+    background-color: #bac964;
+    padding: 30px;
+    border-radius: 50%;
+   
+}
+.service h3 {
+    color: rgb(233, 233, 233);
+    font-size: 25px;
+    font-weight: 300;
+    padding: 20px 0;
+}
+.service p {
+    color: rgb(155, 155, 155);
+    font-size: 18px;
+    line-height: 34px;
+    font-weight: 300;
+    padding: 15px 0;
+
+}
+.service a{
+    color: #bac964;
+    font-size: 18px;
+    font-weight: 200;
+    text-decoration: none;
+  
+}
+
+.service i {
+    color: #bac964;
+    margin-left: 10px;
+}
+.service .learn-more span {
+    transition: 0.5s;
+}
+.service .learn-more:hover span {
+    margin-right: 25px;
+}
+
+/* service section end */
+
+/* blog section start */
+.blog {
+    padding: 80px 0;
+}
+.blog h1 {
+    text-align: center;
+    color: white;
+    font-size: 37px;
+    font-weight: 200;
+    margin-bottom: 56px;
+}
+.blog h1 span {
+    font-weight: 900;
+}
+
+
+.blog-row {
+    display: flex;
+    justify-content: space-between;
+}
+.blog .blog-col-1, .blog-col-2, .blog-col-3 {
+    flex-basis: 31%;
+    background-color: #333333;
+ 
+}
+.blog-padding {
+    padding: 35px;
+}
+.blog h2 {
+    color: white;
+    font-weight: 300;
+}
+.blog p {
+    color: rgb(145, 145, 145);
+    line-height: 30px;
+    padding: 10px 0;
+    font-size: 18px;
+  
+
+}
+
+.blog img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+/* blog section end */
+
 /* Contact section start */
 .contact {
-    background-color: #343a40;
-    padding: 60px 80px;
+    padding: 80px 0;
 }
 
 .contact h3 {
     text-align: center;
+    font-size: 38px;
+    color: white;
+    font-weight: 200;
+}
+.contact h3 span {
+    font-weight: 600;
+}
+.contact h5 {
+    color: white;
+    font-weight: 300;
+    font-size: 35px;
+    padding: 40px 0;
 }
 
 .contact-row {
@@ -391,13 +601,17 @@ body {
 
 .contact form input {
     width: 100%;
-    padding: 15px 20px;
+    padding: 20px 20px;
     border-radius: 5px;
     border: none;
     outline: 0;
     margin-bottom: 10px;
     background: #333;
     color: white;
+    margin: 10px 0;
+}
+.contact form textarea {
+    margin: 10px 0;
 }
 
 .contact form textarea {
@@ -413,15 +627,30 @@ body {
     resize: none;
 }
 
-::placeholder {
-    color: white;
-}
+.contact form ::placeholder {
+    color: rgb(175, 175, 175);
+    font-size: 18px;
+    font-weight: 100;
 
+}
 .contact form .submitbtn {
     width: 200px;
     background-color: #bac964;
     text-transform: uppercase;
     letter-spacing: 4px;
+}
+.contact .info-bar {
+    color: #2c3e50;
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 14px 0;
+    display: block;
+}
+.contact p {
+    color: rgb(151, 151, 151);
+    line-height: 30px;
+    letter-spacing: 1px;
 }
 
 /* Contact section End */
@@ -429,8 +658,7 @@ body {
 /* copyright section start */
 
 footer {
-    background-color: #343a40;
-    padding: 60px 80px;
+    padding: 80px 0;
     text-align: center;
 
 }
@@ -443,9 +671,11 @@ footer {
     border-radius: 100%;
     font-size: 28px;
 }
+
 .social-icon {
     margin-top: 30px;
 }
+
 footer p {
     color: #787878;
 }
